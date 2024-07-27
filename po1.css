@@ -1,0 +1,130 @@
+*{
+ padding: 0;
+margin: 0 ;
+box-sizing: border-box;
+}
+.mochiy-pop-one-regular {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .main-width{
+    margin-left: 10%;
+    
+  }
+  body{
+    /* height: 100%;
+    width: 100%;
+    min-height: 100vh; */
+    background-image: url(ghot.jpg.jpg);
+    background-size: cover;
+    position: relative;
+
+  }
+  #b1{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 900;
+    color: yellow;
+    display: block;
+  }
+   header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 190px;
+    margin-top: 50px;
+    align-items: center;
+  }
+  li {
+    display: inline-block;
+
+    
+    margin: 5px;
+  }
+  li a{
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(250, 137, 8);
+    border-bottom: 2px solid transparent;
+    
+  }
+   li a:hover{
+    border-bottom: 1px solid green;
+    color: white;
+    transition: 0.8s;
+  }
+  .fire{
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 90px;
+    position: relative;
+    left: 20px;
+  
+  }
+   .content{
+    color: white;
+    padding-top: 65px;
+  }
+  .content .main-text{
+    position: relative;
+     z-index: 2;
+    margin-bottom: 40px;
+
+  }
+  h6{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+  }
+  h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+    line-height: 2;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+   .content .main-text p {
+    max-width: 100%;
+width: 490px;
+font-size: 15px;
+line-height: 2;
+margin-bottom: 60px;
+   }
+   .social{
+    margin-bottom: 10px;
+   }
+   .content .main-text a{
+    display:  inline-block;
+    border:1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 9px 25px;
+    border-radius: 30px;
+    font-size: x-large;
+    font-weight: 500;
+   }
+   .social a{
+    /* position: relative;
+    z-index: 2; */
+    display: inline-block;
+    color: #f5dcac;
+    margin-right: 25px;
+   }
+
+
+
+
+
+
+
+
+  
